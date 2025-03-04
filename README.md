@@ -12,3 +12,11 @@ I am going to be creating a Bible app using 1 or more public APIs.
 
 
 [Colors](https://coolors.co/93b7be-f1fffa-d5c7bc-785964-454545)
+
+react-router-dom
+
+react-bootstrap
+
+react-icons
+
+
