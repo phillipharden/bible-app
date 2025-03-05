@@ -1,1 +1,27 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+* {
+  margin: 0;
+}
 
+body {
+  margin: 0;
+}
+
+/* Ensure the main content can be fully scrolled */
+.app-body {
+  padding-bottom: 70px; /* Adjust to match the height of the nav */
+  overflow-y: auto;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.page {
+  padding: 32px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  min-height: 100vh;
+}

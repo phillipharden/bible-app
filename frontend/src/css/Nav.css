@@ -1,0 +1,83 @@
+.nav {
+  background-color: #333333;
+  color: #ebebeb;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-show {
+  transform: translateY(0); /* Show nav */
+}
+
+.nav-hide {
+  transform: translateY(100%); /* Hide nav */
+}
+
+.nav-body {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-link.active .nav-text {
+  color: #ebebeb;
+}
+
+.nav-link.active .nav-icon {
+  color: #ebebeb;
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #858585;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-icon {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.nav-text {
+  font-size: 14px;
+}
+
+/* Increase font sizes for screens 576px and larger */
+@media (min-width: 576px) {
+  .nav-icon {
+    font-size: 24px; /* Increase icon size */
+  }
+
+  .nav-text {
+    font-size: 16px; /* Increase text size */
+  }
+}
+
+/* Increase font sizes for screens 768px and larger */
+@media (min-width: 768px) {
+  .nav-icon {
+    font-size: 28px; /* Increase icon size */
+  }
+
+  .nav-text {
+    font-size: 18px; /* Increase text size */
+  }
+}
+
+/* Increase font sizes for screens 992px and larger */
+@media (min-width: 992px) {
+  .nav-icon {
+    font-size: 30px; /* Increase icon size */
+  }
+
+  .nav-text {
+    font-size: 20px; /* Increase text size */
+  }
+}

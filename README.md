@@ -20,3 +20,4 @@ react-bootstrap
 react-icons
 
 
+[Bible API](https://scripture.api.bible/)

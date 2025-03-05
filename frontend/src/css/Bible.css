@@ -1,0 +1,32 @@
+.page {
+  padding: 20px;
+}
+
+.translations-list {
+  margin-top: 20px;
+}
+
+.translation-card {
+  background-color: #f4f4f4;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  color: #333;
+}
+
+p {
+  margin: 5px 0;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
